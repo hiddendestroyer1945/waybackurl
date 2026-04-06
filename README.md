@@ -25,8 +25,8 @@ By utilizing the Wayback CDX API and routing all traffic through the Tor Network
 📋 Prerequisites
 
 This tool is designed for Debian, Kali Linux, Ubuntu, or Parrot OS.
+    Install & Start Tor:  
 
-    Install & Start Tor:    
 ```Bash
 
     sudo apt update && sudo apt install tor python3-venv -y
