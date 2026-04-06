@@ -6,15 +6,15 @@ By utilizing the Wayback CDX API and routing all traffic through the Tor Network
 
 ## 🛡️ Core Features
 
-    - Tor Stealth Integration: Native SOCKS5 proxy support ensures your origin IP is never exposed to the Internet Archive.
+- Tor Stealth Integration: Native SOCKS5 proxy support ensures your origin IP is never exposed to the Internet Archive.
 
-    - Deep Heuristic Scanning: Automatically filters thousands of historical URLs for 20+ high-value sensitive patterns:
+- Deep Heuristic Scanning: Automatically filters thousands of historical URLs for 20+ high-value sensitive patterns:
 
-        - Secrets: .env, config.php, settings.json, .git/config
+    - Secrets: .env, config.php, settings.json, .git/config
 
-        - Backups: .sql, .bak, .zip, .tar.gz
+    - Backups: .sql, .bak, .zip, .tar.gz
 
-        - Credentials: id_rsa, api_key, access_token, passwd
+    - Credentials: id_rsa, api_key, access_token, passwd
 
     - Wildcard Discovery: Uses *.target.com/* logic to map the entire historical attack surface, including subdomains.
 
@@ -78,9 +78,9 @@ python3 waybackurl.py
 ```
 ## Follow the interactive prompts:
 
-        - Enter your Website: e.g., example.com
+- Enter your Website: e.g., example.com
 
-        - Enter output JSON filename: e.g., recon_results
+- Enter output JSON filename: e.g., recon_results
 
 📂 Output Format
 
