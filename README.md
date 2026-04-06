@@ -33,7 +33,7 @@ This tool is designed for Debian, Kali Linux, Ubuntu, or Parrot OS.
     sudo service tor start
 ```
 
-    Python 3.10+ (Standard on most modern Debian distros).
+    - Python 3.10+ (Standard on most modern Debian distros).
 
 🚀 Installation & Environment Setup
 
@@ -55,7 +55,7 @@ python3 -m venv venv
 
 # Activate the environment
 ```Bash
-    source venv/bin/activate
+source venv/bin/activate
 ```
 
 Note: Your terminal prompt should now show (venv) at the beginning.
@@ -65,18 +65,18 @@ Note: Your terminal prompt should now show (venv) at the beginning.
 pip install -r requirements.txt
 ```
 
-🛠️ Usage
+## 🛠️ Usage
 
-    Ensure the Tor service is running: sudo service tor status
+Ensure the Tor service is running: sudo service tor status
 
-    Ensure your virtual environment is active: source venv/bin/activate
+Ensure your virtual environment is active: source venv/bin/activate
 
-    Launch the program:
+## Launch the program:
 ```Bash
 
     python3 waybackurl.py
 ```
-    Follow the interactive prompts:
+## Follow the interactive prompts:
 
         Enter your Website: e.g., example.com
 
@@ -104,6 +104,6 @@ JSON
 
 This tool is intended for authorized security auditing, bug bounty hunting, and educational purposes only. The developer assumes no liability for misuse or damage caused by this program. Always obtain permission before performing reconnaissance on a target.
 
-Author
+## Author
 
 hiddendestroyer1945
