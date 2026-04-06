@@ -1,10 +1,10 @@
-WaybackURL v1.0
+# WaybackURL v1.0
 
 WaybackURL is a high-performance OSINT (Open Source Intelligence) tool developed for Debian-based Linux systems. It is designed to perform "Digital Archeology" by querying the Internet Archive’s Wayback Machine to uncover subdomains, forgotten directory paths, and sensitive historical data leaks.
 
 By utilizing the Wayback CDX API and routing all traffic through the Tor Network, WaybackURL identifies "ghost" files—such as private keys, database configurations, and environment files—that were once public and remain indexed in the global archive.
 
-🛡️ Core Features
+## 🛡️ Core Features
 
     Tor Stealth Integration: Native SOCKS5 proxy support ensures your origin IP is never exposed to the Internet Archive.
 
@@ -24,7 +24,7 @@ By utilizing the Wayback CDX API and routing all traffic through the Tor Network
 
 📋 Prerequisites
 
-This tool is designed for Debian, Kali Linux, Ubuntu, or Parrot OS.
+- This tool is designed for Debian, Kali Linux, Ubuntu, or Parrot OS.
     Install & Start Tor:  
 
 ```Bash
@@ -33,7 +33,7 @@ This tool is designed for Debian, Kali Linux, Ubuntu, or Parrot OS.
     sudo service tor start
 ```
 
-    - Python 3.10+ (Standard on most modern Debian distros).
+- Python 3.10+ (Standard on most modern Debian distros).
 
 🚀 Installation & Environment Setup
 
@@ -74,7 +74,7 @@ Ensure your virtual environment is active: source venv/bin/activate
 ## Launch the program:
 ```Bash
 
-    python3 waybackurl.py
+python3 waybackurl.py
 ```
 ## Follow the interactive prompts:
 
@@ -104,6 +104,6 @@ JSON
 
 This tool is intended for authorized security auditing, bug bounty hunting, and educational purposes only. The developer assumes no liability for misuse or damage caused by this program. Always obtain permission before performing reconnaissance on a target.
 
-## Author
+### Author
 
 hiddendestroyer1945
